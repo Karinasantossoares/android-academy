@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_training"
+    app:startDestination="@id/trainingFragment">
+
+    <fragment
+        android:id="@+id/trainingFragment"
+        android:name="br.com.personal.karina.applealdesafio.ui.fragment.TrainingFragment"
+        android:label="TrainingFragment"
+        tools:layout="@layout/fragment_training">
+        <action
+            android:id="@+id/action_trainingFragment_to_newExerciseFragment"
+            app:destination="@id/newExerciseFragment"
+            app:popUpTo="@id/newExerciseFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_trainingFragment_to_newTraining2"
+            app:destination="@id/newTraining"
+            app:popUpTo="@id/newTraining"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_trainingFragment_to_authenticationActivity"
+            app:destination="@id/authenticationActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/newExerciseFragment"
+        android:name="br.com.personal.karina.applealdesafio.ui.fragment.NewExerciseFragment"
+        android:label="NewExerciseFragment"
+        tools:layout="@layout/fragment_new_exercise"/>
+    <fragment
+        android:id="@+id/newTraining"
+        android:name="br.com.personal.karina.applealdesafio.ui.fragment.NewTraining"
+        android:label="NewTraining"
+        tools:layout="@layout/fragment_new_training"/>
+    <activity
+        android:id="@+id/authenticationActivity"
+        android:name="br.com.personal.karina.applealdesafio.ui.activity.AuthenticationActivity"
+        android:label="activity_authentication"
+        tools:layout="@layout/activity_authentication" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229505503395",
+    "project_id": "desafio-app-leal",
+    "storage_bucket": "desafio-app-leal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229505503395:android:7aa2b4f1abd865779b6f16",
+        "android_client_info": {
+          "package_name": "br.com.personal.karina.applealdesafio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229505503395-e8gluccv1i96mo3ud6cqjsqv9395oo52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZEgfky5fECB1bG6vGefiLTDSmuEw5v1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229505503395-e8gluccv1i96mo3ud6cqjsqv9395oo52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

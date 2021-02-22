@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ScrollView
+        android:id="@+id/scrow_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ui.fragment.UserRegistrationFragment">
+
+            <View
+                android:id="@+id/view_toolbar"
+                android:layout_width="0dp"
+                android:layout_height="179dp"
+                android:background="@drawable/shape_view_toolbar"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/title_new_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/text_new_exercise"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_new_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_marginHorizontal="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                android:paddingBottom="20dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_new_exercise">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraint_cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/image_new_exercise"
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_marginHorizontal="23dp"
+                        android:layout_marginVertical="21dp"
+                        android:background="@color/background_white"
+                        android:src="@drawable/ic_gallery"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/constraint_cardView" />
+
+                    <TextView
+                        android:id="@+id/changed_image"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="120dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="@string/new_image"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/image_new_exercise" />
+
+
+                    <TextView
+                        android:id="@+id/tv_name_exercise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="@string/text_title_name_training"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/changed_image" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_name_exercise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/edit_text_shape"
+                        android:fontFamily="@font/open_sans_light"
+                        android:hint="@string/text_choose_name"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        app:layout_constraintTop_toBottomOf="@id/tv_name_exercise" />
+
+                    <TextView
+                        android:id="@+id/tv_description_execise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="@string/text_description_title"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/et_name_exercise" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_description_exercise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/edit_text_shape"
+                        android:fontFamily="@font/open_sans_light"
+                        android:hint="@string/text_repeat"
+                        android:lines="4"
+                        android:padding="12dp"
+                        android:singleLine="false"
+                        android:textSize="16sp"
+                        app:layout_constraintTop_toBottomOf="@id/tv_description_execise" />
+
+
+                    <ProgressBar
+                        android:id="@+id/pb_load_exercise"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginVertical="30dp"
+                        android:indeterminateDrawable="@drawable/shape_progress_bar"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="@id/constraint_cardView"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/et_description_exercise"
+                        app:layout_constraintVertical_bias="1"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_save_new_exercise"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="159dp"
+                android:layout_marginVertical="20dp"
+                android:layout_marginBottom="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/button_shape"
+                android:text="@string/text_btn_save"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cd_new_exercise"
+                app:layout_constraintVertical_bias="0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</layout>

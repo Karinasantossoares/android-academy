@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Ifitnees</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="seja_bem_vindo">Seja \nbem vindo</string>
+    <string name="text_title_login">LOGIN</string>
+    <string name="text_email">Digite seu email:</string>
+    <string name="text_password">Digite sua senha:</string>
+    <string name="text_forgot_password">Esqueci a senha</string>
+    <string name="message_error">Mensagem de erro</string>
+    <string name="text_button_enter">Entrar</string>
+    <string name="text_register_new_user">Ainda não tem uma conta? \nRegistre-se aqui. </string>
+    <string name="text_description_image">image_biometric</string>
+    <string name="text_title_email">E-mail</string>
+    <string name="tetx_password">Senha</string>
+    <string name="message_title_screen_registration">Cadastro</string>
+    <string name="name_of_user">Nome do usuário</string>
+    <string name="text_name_et">Insira seu nome de usuário:</string>
+    <string name="title_email">Email</string>
+    <string name="text_email_register">Insira seu email:</string>
+    <string name="title_password">Senha</string>
+    <string name="text_password_register">Insira sua senha:</string>
+    <string name="title_confirmation_password">Confirmar senha</string>
+    <string name="text_confirmation_password">Confirme sua senha:</string>
+    <string name="text_btn_register">Cadastrar</string>
+    <string name="text_title_new_training">Novo treino</string>
+    <string name="text_title_name_training">Nome</string>
+    <string name="insert_name">Inisira seu nome</string>
+    <string name="text_description_title">Descriçao</string>
+    <string name="text_btn_save">Salvar</string>
+    <string name="text_new_exercise">Novo exercício</string>
+    <string name="text_choose_name">Escolha um nome</string>
+    <string name="new_image">Alterar imagem</string>
+    <string name="text_repeat">Ex: 4 repetições</string>
+    <string name="text_training">Treinos</string>
+    <string name="add_training">Adicionar treino</string>
+    <string name="exerc_cios">Exercícios</string>
+    <string name="text_excluir">Excluir</string>
+    <string name="acessibility_cadastrar_novo">cadastrar novo treino</string>
+    <string name="treinos">Treinos</string>
+    <string name="message_data_empty">Todos os campos são obrigatórios</string>
+    <string name="message_error_data_isempty">Por favor , digite seus dados para validação.</string>
+    <string name="message_error_email">Por favor, digite um email válido.</string>
+    <string name="message_password_lengt">Sua senha deve conter mais de cinco digitos.</string>
+    <string name="message_error_authentication">Error ao logar usuario.</string>
+    <string name="message_register_name">Seu nome deve conter mais de três caracteres.</string>
+    <string name="message_name_email_equals">Por favor, digite dados válidos.</string>
+    <string name="message_daata_register_empty">Por favor , digite dados validos para o registro.</string>
+    <string name="message_error_resgister">Erro ao se registrar , por favor tente novamente mais tarde.</string>
+    <string name="message_password_not_equals">As senhas nao correspondem.</string>
+    <string name="message_error_isempty">Todos os campos são obrigatótios.</string>
+    <string name="message_error_save">Erro ao salvar treino, tente novamente mais tarde.</string>
+    <string name="message_delete_success">Item deletado com sucesso!</string>
+    <string name="message_error_delete">Item não deletado , tente novamente mais tarde.</string>
+    <string name="message_succes_edit">Treino editado com sucesso.</string>
+    <string name="message_error_edit">O treino não foi editado , tente novamente mais tarde.</string>
+    <string name="message_error_list_training">Erro ao buscar treinos , tente novamente mais tarde.</string>
+    <string name="excluir">Deletar</string>
+    <string name="editar">Editar</string>
+    <string name="message_error_find_exercise">Não foi possível buscar os exercícios , por favor tente mais tarde.</string>
+    <string name="message_delete">Tem certeza que deseja deletar esse item?</string>
+    <string name="messag_ok">Ok</string>
+    <string name="error_delte_exercise">Não foi possível deletar o exercício.Tente novamente mais tarde.</string>
+    <string name="message_success_save_exercise">Exercício salvo com sucesso.</string>
+    <string name="message_error_save_exercise">Erro ao salvar exercicio , tente novamente mais tarde.</string>
+    <string name="message_sucess_edit_exercise">Exercício editado com sucesso.</string>
+    <string name="error_edit_exercise">Erro ao editar exercício , tente novamente mais tarde</string>
+    <string name="message_error_list_exercise">Erro ao carregar exercícios.</string>
+    <string name="text_not_create_training">Você ainda não criou nenhum treino.</string>
+    <string name="message_training_save">Treino salvo com sucesso</string>
+    <string name="date">Data</string>
+    <string name="texte_create">Criado em:</string>
+    <string name="text_exercise_empty">Nenhum exercício cadastrado.</string>
+    <string name="message_data_invalid">Por favor preencha os campos de nome e descrição do exercício.</string>
+    <string name="message_success_uploud">Uploud de foto realizado.</string>
+    <string name="edit_exercise">Editar exercício</string>
+    <string name="message_title_biometric">Biometria</string>
+    <string name="message_description_biometric_dialog">Use suas credenciais para entrar no aplicativo.</string>
+    <string name="message_enter_login_password_not_save">Digitar login e senha</string>
+    <string name="message_edit_training">Editar treino</string>
+    <string name="m_nimo_seis_d_gitos">Mínimo seis dígitos</string>
+</resources>
