@@ -21,9 +21,9 @@ import org.koin.dsl.module
 
 
 val modulesTraining = module {
-    single { AuthenticationRepository(androidContext(), get())}
-    single { ExerciseRepository(androidContext(), get(),get())}
-    single { TrainingRepository(androidContext(), get(),get(),get())}
+    single { AuthenticationRepository( get())}
+    single { ExerciseRepository(get(),get())}
+    single { TrainingRepository( get(),get(),get())}
     single { ExercisePhotoRepository( get(),get())}
     single { AuthenticationUseCase(androidContext(), get())}
     single { ExerciseUseCase( androidContext(),get(),get())}

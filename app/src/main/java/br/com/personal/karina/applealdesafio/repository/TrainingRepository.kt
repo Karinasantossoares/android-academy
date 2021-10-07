@@ -8,7 +8,6 @@ import com.google.firebase.database.*
 import kotlin.Exception
 
 class TrainingRepository(
-    private val context: Context,
     private val firebaseAuth: FirebaseAuth,
     private val referenceTraining: DatabaseReference,
     private val exerciseRepository: ExerciseRepository

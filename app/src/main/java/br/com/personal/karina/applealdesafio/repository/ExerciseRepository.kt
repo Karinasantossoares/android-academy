@@ -7,7 +7,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 
 class ExerciseRepository(
-    private val context: Context,
     private val firebaseAuth: FirebaseAuth,
     private val referenceExercise: DatabaseReference,
 ) {

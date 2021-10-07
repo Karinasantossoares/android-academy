@@ -11,4 +11,5 @@ class TrainingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     override fun onSupportNavigateUp() = findNavController(R.id.hostTraining).navigateUp()
+
 }

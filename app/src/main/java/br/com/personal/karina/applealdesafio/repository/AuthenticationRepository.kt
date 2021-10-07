@@ -5,7 +5,6 @@ import com.google.firebase.auth.FirebaseAuth
 import java.lang.Exception
 
 class AuthenticationRepository(
-    private val context: Context,
     private val firebaseAuth: FirebaseAuth
 ) {
 
